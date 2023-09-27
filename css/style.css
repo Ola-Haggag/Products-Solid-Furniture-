@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1950px;
+    background-color: rgb(255, 225, 225);
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.header{
+    height: 95px;
+    background-color: rgb(197, 79, 79);
+    margin-bottom: 50px;
+    place-content: left;
+    word-spacing: 70px;
+}
+.head-ul{
+     list-style-type: none;
+     float: right;
+     margin-right: 60px;
+ }
+ .head-ul li a{
+    text-decoration: none;
+    color: rgb(254, 249, 249);  
+}
+.head-ul li{
+    display: inline-block;
+    font-size: 25px;
+
+    margin-top: 30px;
+    color: rgb(199, 89, 89);
+}
+.logo{
+    margin-top: -45px;
+}
+.icon{
+    margin-left: -60px;
+    color: rgb(253, 204, 204);
+}
+.icon3{
+    margin-left: -90px;
+    color: rgb(253, 204, 204);
+}
+.fa-search{
+    color: rgb(253, 204, 204);
+    margin-left: 160px;
+}
+.title .main-title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(199, 89, 89);
+    text-shadow: 2px 2px 7px red;
+}
+/*////////////////////////////////////////////////////////////////////////*/
+.product-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 130px;
+    margin-bottom: 100px;
+    place-content: center;  
+}
+.product-info,.product{
+    width: 100%; 
+}
+.product{
+    background-color: rgb(197, 79, 79);
+    color: white;
+    border-radius: 10px;  
+}
+.product-info h1 {
+   margin-left: 10px;
+   cursor: pointer;
+   margin-top: 10px;
+}
+.product-info h1:hover{
+    color: rgb(0, 0, 0);
+}
+.product-info h3{
+   margin: 10px;
+}
+.fa-star{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.fas1{
+    margin-left: 10px;
+}
+.price-details{
+    margin-left:580px;
+}
+#totalprice{
+    border: 2px solid rgb(197, 79, 79);
+    height: 60px;
+    width: 400px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#content{
+    font-size: 20px;
+}
+h6{
+    margin-top: -1px;
+    margin-left:-200px;
+}
+#showbtn{
+    margin-top: 30px;
+    margin-left: 100px;         
+}
+h2{
+    margin-top: 30px;
+    color: rgb(197, 79, 79);
+}
+.product img{
+    width: 100%;
+}
